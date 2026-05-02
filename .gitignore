@@ -1,3 +1,4 @@
 mlartifacts
 mlflow.db
 README.md
+test_autologging.py
