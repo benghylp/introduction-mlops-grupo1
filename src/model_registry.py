@@ -1,5 +1,6 @@
+import mlflow
 def register_model(model, model_name, n_estimators, accuracy):
-    import mlflow
+    
 
     mlflow.set_tracking_uri("http://localhost:5000")
     mlflow.set_experiment("Mi primer Modelo")
