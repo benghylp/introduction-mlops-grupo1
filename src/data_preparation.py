@@ -1,6 +1,8 @@
+from sklearn.model_selection import train_test_split
+import pandas as pd
+
 def prepare_data(df):
-    from sklearn.model_selection import train_test_split
-    import pandas as pd
+    
 
     df = df.drop(columns="SK_ID_CURR")
     # Imputar todos los valores nulos en variables numéricas por la mediana de cada variable
